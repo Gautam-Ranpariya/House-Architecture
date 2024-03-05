@@ -1,0 +1,13 @@
+@import '../../../styles/global.scss';
+
+.inputemail
+{   
+    input[type = email]{
+        color: var(--theme-color-black);
+        border: none;
+        outline: none;
+        height: auto;
+        @include input-text-18;
+        width: 100%;
+    }
+}
